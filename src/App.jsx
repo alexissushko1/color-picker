@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import {allColorsList} from './AllColorsList'
-import {colorDetails} from './ColorDetails'
-import './App.css'
+import AllColorsList from './AllColorsList';
+import ColorDetails from './ColorDetails';
+import './App.css';
 
 export default function App() {
 const [selectedColor, setSelectedColor] = useState();
   
 return (
-  <body>
+  <div>
     <ColorDetails selectedColor={selectedColor} />
     <AllColorsList selectedColor={selectedColor} setSelectedColor={setSelectedColor} />
-   </body>
+   </div>
 )
 }
 

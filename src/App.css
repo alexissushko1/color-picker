@@ -25,3 +25,15 @@ li:hover {
   border: 5px solid black;
   cursor: pointer;
 }
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
+
+.black {
+  background: black;
+}
